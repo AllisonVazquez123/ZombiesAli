@@ -1,0 +1,30 @@
+<% include header %>
+
+  <div class="card" style="margin-top:1rem;">
+    <div class="card-body">
+        <h1 class="display-4" style="text-align:center; margin-bottom:1rem;">Agregar victima</h1>
+        <form method="post" role="form">
+                <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe un nombre" required/>
+                    </div>
+
+                    <div class="form-group">
+                            <label for="direccion">Dirección:</label>
+                            <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Escribe una direccion" required/>
+                        </div>
+
+                        <div class="form-group">
+                                <label for="tel">Teléfono:</label>
+                                <input type="text" class="form-control" id="tel" name="tel" placeholder="Escribe un teléfono" required/>
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="instagram">Instagram:</label>
+                                    <input type="text" class="form-control" id="instagram" name="instagram" placeholder="Escribe un nombre" required/>
+                                </div>
+            <button type="submit" class="btn btn-outline-success" value="aceptar">Aceptar</button>
+          </form>
+    </div>
+  </div>
+  <% include footer %>
